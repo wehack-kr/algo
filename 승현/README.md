@@ -5,7 +5,7 @@
 ### 배열과 리스트
 
 - [x] [[#11720] 숫자의 합](https://www.acmicpc.net/problem/11720)
-- [ ] [[#1546] 평균](https://www.acmicpc.net/problem/1546)
+- [x] [[#1546] 평균](https://www.acmicpc.net/problem/1546)
 
 ### 구간 합
 
