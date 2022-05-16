@@ -9,7 +9,7 @@
 
 ### 구간 합
 
-- [ ] [[#11659] 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+- [x] [[#11659] 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
 - [ ] [[#11660] 구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
 - [ ] [[#10986] 나머지 합](https://www.acmicpc.net/problem/10986)
 
