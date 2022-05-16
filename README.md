@@ -1,6 +1,7 @@
 # Weekly Problem Sets
 
-## Week 1
+<details>
+<summary>Week 1 (5/13/2022 - 5/19/2022)</summary>
 
 ### 배열과 리스트
 
@@ -30,3 +31,5 @@
 2. [[#17298] **오큰수**](https://www.acmicpc.net/problem/17298)
 3. [[#2164] 카드2](https://www.acmicpc.net/problem/2164)
 4. [[#11286] **절댓값 힙**](https://www.acmicpc.net/problem/11286)
+
+</details>
