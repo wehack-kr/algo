@@ -1,6 +1,3 @@
-# #2018 - 수들의 합 5
-
-```java
 import java.util.Scanner;
 
 public class Main {
@@ -30,4 +27,3 @@ public class Main {
         System.out.println(count);
     }
 }
-```

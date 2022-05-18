@@ -1,6 +1,3 @@
-# #1940 - 주몽
-
-```java
 import java.io.*;
 import java.util.*;
 
@@ -42,4 +39,3 @@ public class Main {
         System.out.println(count);
     }
 }
-```

@@ -1,6 +1,3 @@
-# #11720 - 숫자의 합
-
-```java
 import java.util.Scanner;
 
 public class Main {
@@ -20,4 +17,3 @@ public class Main {
         System.out.println(sum);
     }
 }
-```

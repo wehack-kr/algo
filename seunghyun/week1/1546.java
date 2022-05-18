@@ -1,6 +1,3 @@
-# #1546 - 평균
-
-```java
 import java.util.Scanner;
 
 public class Main {
@@ -24,4 +21,3 @@ public class Main {
         System.out.println(sum * 100.0 / max / N);
     }
 }
-```

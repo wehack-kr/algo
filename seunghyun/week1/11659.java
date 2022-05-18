@@ -1,6 +1,3 @@
-# #11659 - 구간 합 구하기 4
-
-```java
 import java.io.*;
 import java.util.*;
 
@@ -30,4 +27,3 @@ public class Main {
         }
     }
 }
-```
