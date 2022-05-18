@@ -17,7 +17,7 @@
 
 - [x] [[#2018] 수들의 합 5](https://www.acmicpc.net/problem/2018)
 - [x] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
-- [ ] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
+- [x] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
 
 ### 슬라이딩 윈도우
 
