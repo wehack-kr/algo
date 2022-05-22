@@ -9,14 +9,15 @@
 ### 구간 합
 
 - [ ] [[#11659] 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
-  - [Week 1 (WIP)](./week1/11659.md)
+  - [Week1 (WIP)](./week1/11659.md)
 - [ ] [[#11660] 구간 합 구하기 5](https://www.acmicpc.net/problem/11660)
 - [ ] [[#10986] 나머지 합](https://www.acmicpc.net/problem/10986)
 
 ### 투 포인터
 
-- [ ] [[#2018] 수들의 합 5](https://www.acmicpc.net/problem/2018)
-  - [Week 1 (WIP)](./week1/2018.md)
+- [x] [[#2018] 수들의 합 5](https://www.acmicpc.net/problem/2018)
+  - [Week1 (WIP)](./week1/2018.md)
+  - [Week2](./week2/2018.md)
 - [ ] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
 - [ ] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
 
