@@ -34,4 +34,30 @@ def solution():
             print(behavior)
 
 
-solution()
+def solution_2():
+    push_pop_order = list()
+    stack = list()
+    serial = [n for n in range(1, N + 1)]
+    no_flag = False
+
+    target_idx = 0
+    while serial or stack:
+        if not stack or stack[-1] < target_serial[target_idx]:
+            stack.append(serial.pop(0))
+            push_pop_order.append('+')
+        elif stack[-1] == target_serial[target_idx]:
+            stack.pop(-1)
+            push_pop_order.append('-')
+            target_idx += 1
+        else:
+            no_flag = True
+            break
+
+    if not no_flag:
+        for each in push_pop_order:
+            print(each)
+    else:
+        print('NO')
+
+
+solution_2()
