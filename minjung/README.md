@@ -21,6 +21,7 @@
 - [x] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
   - [Week2](./week2/1940.md)
 - [ ] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
+  - [Week2 (WIP)](./week2/1253.md)
 
 ### 슬라이딩 윈도우
 
