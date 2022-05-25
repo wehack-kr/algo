@@ -18,7 +18,8 @@
 - [x] [[#2018] 수들의 합 5](https://www.acmicpc.net/problem/2018)
   - [Week1 (WIP)](./week1/2018.md)
   - [Week2](./week2/2018.md)
-- [ ] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
+- [x] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
+  - [Week2](./week2/1940.md)
 - [ ] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
 
 ### 슬라이딩 윈도우
