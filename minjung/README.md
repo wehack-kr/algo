@@ -42,4 +42,5 @@
   - [Week3](./week3/2750.md)
 - [x] [[1427] 소트인사이드](https://www.acmicpc.net/problem/1427) (선택정렬)
   - [Week3](./week3/1427.md)
-- [ ] [[11399] ATM](https://www.acmicpc.net/problem/11399) (삽입정렬)
+- [x] [[11399] ATM](https://www.acmicpc.net/problem/11399) (삽입정렬)
+  - [Week3](./week3/11399.md)
