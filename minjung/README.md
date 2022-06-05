@@ -35,3 +35,9 @@
 - [ ] [[#17298] 오큰수](https://www.acmicpc.net/problem/17298)
 - [ ] [[#2164] 카드2](https://www.acmicpc.net/problem/2164)
 - [ ] [[#11286] 절댓값 힙](https://www.acmicpc.net/problem/11286)
+
+### 정렬
+
+- [ ] [[2750] 수 정렬하기](https://www.acmicpc.net/problem/2750) (버블정렬)
+- [ ] [[1427] 소트인사이드](https://www.acmicpc.net/problem/1427) (선택정렬)
+- [ ] [[11399] ATM](https://www.acmicpc.net/problem/11399) (삽입정렬)
