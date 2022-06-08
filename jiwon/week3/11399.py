@@ -11,12 +11,7 @@ def solution():
     N = int(stdin.readline())
     arr = list(map(int, stdin.readline().split(' ')))
     result_sum = 0
-
-    for i in range(1, N):
-        curr = arr[i]
-        for j in reversed(range(i)):
-            if arr[j] > curr:
-                arr[j], arr[j + 1] = curr, arr[j]
+               
 
     for i in range(1, len(arr)):
         result_sum += sum(arr[:i])
