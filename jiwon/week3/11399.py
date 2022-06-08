@@ -1,4 +1,3 @@
-from sys import stdin
 
 def solution():
     """
@@ -11,10 +10,15 @@ def solution():
     N = int(stdin.readline())
     arr = list(map(int, stdin.readline().split(' ')))
     result_sum = 0
-               
 
-    for i in range(1, len(arr)):
-        result_sum += sum(arr[:i])
+    for i in range(1, N):
+        curr = arr[i]
+        for j in reversed(range(0, i)):
+            if arr[j] > curr:
+                arr[j], arr[j + 1] = curr, arr[j]
+
+    for i in range(len(arr)):
+        result_sum += sum(arr[:i + 1])
     print(result_sum)
 
 solution()
