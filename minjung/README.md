@@ -21,7 +21,7 @@
 - [x] [[#1940] 주몽](https://www.acmicpc.net/problem/1940)
   - [Week2](./week2/1940.md)
 - [x] [[#1253] 좋다](https://www.acmicpc.net/problem/1253)
-  - [Week2](./week2/1253.md)
+  - [Week2](./week2/12750.253.md)
 
 ### 슬라이딩 윈도우
 
@@ -45,5 +45,8 @@
 - [x] [[11399] ATM](https://www.acmicpc.net/problem/11399) (삽입정렬)
   - [Week3](./week3/11399.md)
 - [ ] [[11004] K번째 수](https://www.acmicpc.net/problem/11004) (퀵정렬)
+  - [Week4 (시간초과)](./week4/11004.md)
 - [ ] [[2751] 수 정렬하기 2](https://www.acmicpc.net/problem/2751) (병합정렬)
+  - [Week4 (시간초과)](./week4/2751.md)
 - [ ] [[10989] 수 정렬하기 3](https://www.acmicpc.net/problem/10989) (기수정렬)
+  - [Week4 (메모리초과)](./week4/10989.md)
