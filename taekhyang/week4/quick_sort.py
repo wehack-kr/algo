@@ -1,3 +1,5 @@
+import random
+
 arr = [4, 1, 2, 3, 5]
 
 
@@ -47,6 +49,36 @@ def quick_sort_2(data):
     return quick_sort_2(left) + [pivot] + quick_sort_2(right)
 
 
+def quick_sort_3(arr):
+    def sort(low, high):
+        if low >= high:
+            return
+
+        pivot_idx = partition(low, high)
+        sort(low, pivot_idx - 1)
+        sort(pivot_idx, high)
+
+    def partition(low, high) -> int:
+        random_idx = random.randint(low, high)
+        pivot = arr[random_idx]
+        while low <= high:
+            while arr[low] < pivot:
+                low += 1
+            while arr[high] > pivot:
+                high -= 1
+
+            # low 와 high 가 같은경우 -> pivot 값과 arr[low] arr[high] 가 같은경우
+            if low <= high:
+                arr[low], arr[high] = arr[high], arr[low]
+                # 바꿔줬으니까 인덱스 하나씩 이동, 이동 안하면 무한루프
+                low += 1
+                high -= 1
+
+        # 낮은쪽 인덱스가 새로운 피벗값이 됨
+        return low
+    return sort(0, len(arr) - 1)
+
+
 def main():
     quick_sort(arr, 0, len(arr) - 1)
     return arr
@@ -57,4 +89,9 @@ def main_2():
     return result
 
 
-print(main_2())
+def main_3():
+    quick_sort_3(arr)
+    return arr
+
+
+print(main_3())

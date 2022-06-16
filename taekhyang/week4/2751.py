@@ -36,12 +36,7 @@ def merge(arr, m, middle, n):
 
 
 def merge_sort(arr, m, n):
-    # merge sort 는 len 이 2 이상부터!!
-    if len(arr) == 1:
-        global sorted_list
-        sorted_list = arr
-
-    if m < n:
+    if m < n:  # 두 파트로 나눈 뒤 merge 하기
         middle = (m + n) // 2
         merge_sort(arr, m, middle)
         merge_sort(arr, middle + 1, n)
@@ -49,6 +44,11 @@ def merge_sort(arr, m, n):
 
 
 def solution():
+    # merge sort 는 len 이 2 이상부터!!
+    if len(array) == 1:
+        print(array[0])
+        return
+
     merge_sort(array, 0, len(array) - 1)
     for n in sorted_list:
         print(n)

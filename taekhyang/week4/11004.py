@@ -1,6 +1,5 @@
 import sys
 
-
 N, K = map(int, sys.stdin.readline().split(' '))
 A = list(map(int, sys.stdin.readline().split(' ')))
 answer_index = K - 1
