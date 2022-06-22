@@ -50,3 +50,10 @@
   - [Week4 (시간초과)](./week4/2751.md)
 - [ ] [[10989] 수 정렬하기 3](https://www.acmicpc.net/problem/10989) (기수정렬)
   - [Week4 (메모리초과)](./week4/10989.md)
+
+### 트리
+
+- 개념
+- 이진트리(Binary Tree) vs. 이진 탐색 트리(Binary Search Tree)
+- BST 구현 (insert, search, delete)
+  - [Week5](./week5/tree.md)
