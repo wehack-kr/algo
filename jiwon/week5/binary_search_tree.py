@@ -65,18 +65,25 @@ class BinarySearchTree:
                     else:
                         parent_node = curr_node
                         curr_node = curr_node.left
-
+                        
+            # 삭제
+            # delete_node에 하위 노드가 없는 경우
             if not delete_node.left and not delete_node.right:
+                # delete_node가 최상위 노드일 경우
                 if not parent_node:
                     self.root = None
                     del delete_node
+                # 데이터가 부모 노드의 값보다 클 경우
                 elif parent_node.value > value:
                     parent_node.left = None
                     del delete_node
+                # 데이터가 부모 노드의 값보다 클 경우
                 else:
                     parent_node.right = None
                     del delete_node
+            # delete_node에 하위 노드가 존재하는 경우
             else:
+                # 오른쪽 하위 노드가 존재할 경우
                 if not delete_node.left and delete_node.right:
                     if not parent_node:
                         self.root = delete_node.right
@@ -87,6 +94,7 @@ class BinarySearchTree:
                     else:
                         parent_node.right = delete_node.right
                         del delete_node
+                # 왼쪽 하위 노드가 존재할 경우
                 elif not delete_node.right and delete_node.left:
                     if not parent_node:
                         self.root = delete_node.left
@@ -97,7 +105,7 @@ class BinarySearchTree:
                     else:
                         parent_node.right = delete_node.left
                         del delete_node
-                # 하위 노드가 여러 개 존재할 경우
+                # 둘 다 존재할 경우
                 else:
                     change_node = delete_node.right
 
@@ -119,18 +127,21 @@ class BinarySearchTree:
         else:
             print('삭제할 노드가 없음')
 
+
+import random
+
 bst = BinarySearchTree()
-bst.insert(5)
-bst.insert(1)
-bst.insert(8)
-bst.insert(9)
-bst.insert(3)
-bst.insert(8)
-bst.insert(6)
-bst.insert(2)
-bst.insert(4)
-bst.insert(7)
+nums = []
+
+for i in range(1, 100):
+    random_num = random.randint(1, 100)
+    nums.append(random_num)
+    bst.insert(random_num)
+
 bst.in_order_traverse(bst.root)
-print()
-bst.delete(10)
+print('')
+
+for n in nums:  
+    bst.delete(n)
+
 bst.in_order_traverse(bst.root)
