@@ -109,6 +109,8 @@ class BinarySearchTree:
                 else:
                     change_node = delete_node.right
 
+                    # delete_node의 자리는 오른쪽 서브 트리의 가장 왼쪽에 있는 하위 노드로 대체함.
+                    # delete_node의 오른쪽 하위 노드의 왼쪽 하위 노드가 없을 경우 그대로 오른쪽 하위 노드가 change_node가 됨.
                     if not change_node.left:
                         # if not parent_node:
                         delete_node.value = change_node.value
@@ -117,6 +119,8 @@ class BinarySearchTree:
                         # 2. root -> change_node, change_node.left = delete_node.left
                     else:
                         parent_change_node = None
+
+                        # 대체할 노드를 탐색
                         while change_node.left:
                             parent_change_node = change_node
                             change_node = change_node.left
@@ -141,7 +145,9 @@ for i in range(1, 100):
 bst.in_order_traverse(bst.root)
 print('')
 
-for n in nums:  
-    bst.delete(n)
+for n in range(len(nums)):
+    random_n = random.choice(nums)
+    bst.delete(random_n)
+    nums.remove(random_n)
 
 bst.in_order_traverse(bst.root)
